@@ -1,0 +1,7 @@
+let myMap = new Map();
+myMap.set("x1", "Y1");
+myMap.set("x2", "Y2");
+myMap.set("x3", "Y3");
+myMap.forEach((Y, x) => {
+console.log(`Ключ — ${x}, значение — ${Y}`);
+});
